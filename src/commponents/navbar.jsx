@@ -18,7 +18,7 @@ const Navigasi = ({ name, ...props }) => {
           <Navbar className="AS">
             <Container>
               <Navbar.Brand href="/">
-                <div className="Navbar1">FilmKu</div>
+                <div className="Navbar1">Vidiscop</div>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <div className="Navbar2">
@@ -26,7 +26,7 @@ const Navigasi = ({ name, ...props }) => {
                   Trending
                 </Nav.Link>
                 <Nav.Link className="P" href="#populer">
-                  Populer
+                  Genres
                 </Nav.Link>
                 <Button onClick={handleShow} className="Off">
                   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
@@ -48,7 +48,7 @@ const Navigasi = ({ name, ...props }) => {
                           <Card style={{ width: "18rem" }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Siji</Card.Title>
                               <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
                               <Button variant="primary">Go somewhere</Button>
                             </Card.Body>
@@ -56,12 +56,12 @@ const Navigasi = ({ name, ...props }) => {
                         </Accordion.Body>
                       </Accordion.Item>
                       <Accordion.Item eventKey="1">
-                        <Accordion.Header>Accordion Item #2</Accordion.Header>
+                        <Accordion.Header>Afif Versa Putra</Accordion.Header>
                         <Accordion.Body>
                           <Card style={{ width: "18rem" }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Loro</Card.Title>
                               <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
                               <Button variant="primary">Go somewhere</Button>
                             </Card.Body>
@@ -74,7 +74,7 @@ const Navigasi = ({ name, ...props }) => {
                           <Card style={{ width: "18rem" }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Telu</Card.Title>
                               <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
                               <Button variant="primary">Go somewhere</Button>
                             </Card.Body>

@@ -29,10 +29,10 @@ const Content = () => {
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Aum} />
                     <Card.Body className="Color">
-                      <Card.Title className="Card-Tittle">Card Title</Card.Title>
-                      <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                      <Card.Title className="Card-Tittle">Aum!</Card.Title>
+                      <Card.Text>genre : Drama,Comedy,Action</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -43,10 +43,10 @@ const Content = () => {
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Black} />
                     <Card.Body className="Color">
-                      <Card.Title className="Card-Tittle">Card Title</Card.Title>
-                      <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                      <Card.Title className="Card-Tittle">Black adam</Card.Title>
+                      <Card.Text>Genre : Superhero,Fantasy,Action</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>
@@ -57,10 +57,10 @@ const Content = () => {
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={BlackP} />
                     <Card.Body className="Color">
-                      <Card.Title className="Card-Tittle">Card Title</Card.Title>
-                      <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                      <Card.Title className="Card-Tittle">Black phanter</Card.Title>
+                      <Card.Text>Genre : Superhero,Fantasy,Action</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -75,10 +75,10 @@ const Content = () => {
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Whole} />
                     <Card.Body className="Color">
-                      <Card.Title className="Card-Tittle">Card Title</Card.Title>
-                      <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                      <Card.Title className="Card-Tittle">The whole truth</Card.Title>
+                      <Card.Text>Genre : Horror,Thriller,Drama</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -89,10 +89,10 @@ const Content = () => {
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Century} />
                     <Card.Body className="Color">
-                      <Card.Title className="Card-Tittle">Card Title</Card.Title>
-                      <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                      <Card.Title className="Card-Tittle">20th Century Girl</Card.Title>
+                      <Card.Text>Genre : Drama,Romance</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>
@@ -103,10 +103,10 @@ const Content = () => {
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Crawl} />
                     <Card.Body className="Color">
-                      <Card.Title className="Card-Tittle">Card Title</Card.Title>
-                      <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                      <Card.Title className="Card-Tittle">Crawl</Card.Title>
+                      <Card.Text>Genre : Horror,Paranormal</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -121,10 +121,10 @@ const Content = () => {
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Dora} />
                     <Card.Body className="Color">
-                      <Card.Title className="Card-Tittle">Card Title</Card.Title>
-                      <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                      <Card.Title className="Card-Tittle">Dora</Card.Title>
+                      <Card.Text>Genre : Fantasy,Action</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -135,10 +135,10 @@ const Content = () => {
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Kkn} />
                     <Card.Body className="Color">
-                      <Card.Title className="Card-Tittle">Card Title</Card.Title>
-                      <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                      <Card.Title className="Card-Tittle">KKN Di Desa Penari</Card.Title>
+                      <Card.Text>Genre : Horror,Paranormal,drama</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>
@@ -149,10 +149,10 @@ const Content = () => {
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Perempuan} />
                     <Card.Body className="Color">
-                      <Card.Title className="Card-Tittle">Card Title</Card.Title>
-                      <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                      <Card.Title className="Card-Tittle">Perempuan Bergaun Merah</Card.Title>
+                      <Card.Text>Genre : Horror,Paranormal,Drama</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -167,10 +167,10 @@ const Content = () => {
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Raya} />
                     <Card.Body className="Color">
-                      <Card.Title className="Card-Tittle">Card Title</Card.Title>
-                      <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                      <Card.Title className="Card-Tittle">Raya The Last Dragon</Card.Title>
+                      <Card.Text>Genre : Action,Comedy,Fantasy</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -181,10 +181,10 @@ const Content = () => {
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={One} />
                     <Card.Body className="Color">
-                      <Card.Title className="Card-Tittle">Card Title</Card.Title>
-                      <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                      <Card.Title className="Card-Tittle">One Piece Red</Card.Title>
+                      <Card.Text>Genre : Anime,Action,Comedy</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>
@@ -195,10 +195,10 @@ const Content = () => {
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Silenced} />
                     <Card.Body className="Color">
-                      <Card.Title className="Card-Tittle">Card Title</Card.Title>
-                      <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                      <Card.Title className="Card-Tittle">Silenced</Card.Title>
+                      <Card.Text>Genre ; Drama,Thriller,Action</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}

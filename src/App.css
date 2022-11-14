@@ -109,3 +109,12 @@ video {
   justify-content: center;
   margin-bottom: 1rem;
 }
+.bgft{
+  height:200;
+  width:1600;
+object-fit:cover;
+}
+.form{
+  position:absolute;
+  margin-top:300vh; top: 0;
+}

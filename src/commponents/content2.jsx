@@ -5,7 +5,8 @@ const Content = () => {
   return (
     <>
       <img className="UkuranBg" src={Bg} alt="" />
-      <div className="Populer">Populer</div>
+  
+
     </>
   );
 };
