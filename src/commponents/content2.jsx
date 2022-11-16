@@ -1,221 +1,45 @@
-import { Col, Container, Row, Card } from "react-bootstrap";
-import "../App";
-import Bg from "../asset/bg/bg6.jpg";
-import Bg5 from "../asset/bg/bg5.jpg";
-import Aum from "../asset/img/aum.jpg";
-import Black from "../asset/img/blackadam.jpg";
-import BlackP from "../asset/img/blackpanther.jpg";
-import Whole from "../asset/img/whole.jpg";
-import Kkn from "../asset/img/kkn.jpg";
-import Perempuan from "../asset/img/perempuan.jpg";
-import Dora from "../asset/img/dora.png";
-import Century from "../asset/img/centurygirl.jpeg";
-import Crawl from "../asset/img/crawl.jpeg";
-import Raya from "../asset/img/raya.jpg";
-import Silenced from "../asset/img/silenced.jpg";
-import One from "../asset/img/one.jpeg";
+import Col from "react-bootstrap/Col";
+import Nav from "react-bootstrap/Nav";
+import Row from "react-bootstrap/Row";
+import Tab from "react-bootstrap/Tab";
+import Action from "../commponents/Action";
+import Horor from "../commponents/Horor";
 
-
-const Content2 = () => {
+function Kumpulan() {
   return (
-    <>
-      <img className="UkuranBg" src={Bg} alt="" />
-      <img src={Bg5} alt="" />
-  <div className="Content3">
-    <Container>
-      <Row>
-       
-      
-        
-       
-      
-      
-        <Col className="Picture">
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={BlackP} />
-      <div className="bg-dark">
-      <Card.Body>
-<div className="p-2 m-1 text-white">
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        </div>
-      </Card.Body>
-        </div>
-
-    </Card>
-        </Col>
-      
-      
-        <Col className="Picture">
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Whole} />
-      <div className="bg-dark">
-      <Card.Body>
-<div className="p-2 m-1 text-white">
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
+    <div>
+      <div>
+        <div className="Genres">Genres</div>
+        <img className="BgR" id="genre" src="https://go.overwolf.com/wp-content/uploads/2020/06/Dota-plus-bg.jpg" alt="" />
       </div>
-      </Card.Body>
+      <div className="ContentGenre ">
+        <Tab.Container defaultActiveKey="first">
+          <Row>
+            <Col sm={3}>
+              <Nav variant="pills" className="flex">
+                <Nav.Item>
+                  <Nav.Link eventKey="first">Action</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="second">Horor</Nav.Link>
+                </Nav.Item>
+              </Nav>
+            </Col>
+            <Col sm={9}>
+              <Tab.Content>
+                <Tab.Pane eventKey="first">
+                  <Action />
+                </Tab.Pane>
+                <Tab.Pane eventKey="second">
+                  <Horor />
+                </Tab.Pane>
+              </Tab.Content>
+            </Col>
+          </Row>
+        </Tab.Container>
       </div>
-
-    </Card>
-        </Col>
-      
-      
-        <Col className="Picture">
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Kkn} />
-      <div className="bg-dark">
-      <Card.Body>
-<div className="p-2 m-1 text-white">
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-      </div>
-      </Card.Body>
-</div>
-    </Card>
-        </Col>
-      
-      
-        <Col className="Picture">
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Perempuan} />
-      <div className="bg-dark">
-      <Card.Body>
-<div className="p-2 m-1 text-white">
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-      </div>
-      </Card.Body>
-</div>
-    </Card>
-        </Col>
-      
-      
-        <Col className="Picture">
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Dora} />
-      <div className="bg-dark">
-      <Card.Body>
-<div className="p-2 m-1 text-white">
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-      </div>  
-      </Card.Body>
-</div>
-    </Card>
-        </Col>
-      
-      
-        <Col className="Picture">
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Century} />
-      <div className="bg-dark">
-      <Card.Body>
-<div className="p-2 m-1 text-white">
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        </div>
-      </Card.Body>
-</div>
-    </Card>
-        </Col>
-      
-      
-        <Col className="Picture">
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Crawl} />
-      <div className="bg-dark">
-      <Card.Body>
-<div className="p-2 m-1 text-white">
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        </div>
-      </Card.Body>
-</div>
-    </Card>
-        </Col>
-      
-      
-        <Col className="Picture">
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Raya} />
-      <div className="bg-dark">
-      <Card.Body>
-<div className="p-2 m-1 text-white">
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        </div>
-      </Card.Body>
-</div>
-    </Card>
-        </Col>
-      
-      
-        <Col className="Picture">
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Silenced} />
-      <div className="bg-dark">
-      <Card.Body>
-<div className="p-2 m-1 text-white">
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        </div>
-      </Card.Body>
-</div>
-    </Card>
-        </Col>
-      
-      
-        <Col className="Picture">
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={One} />
-      <div className="bg-dark">
-      <Card.Body>
-<div className="p-2 m-1 text-white">
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-      </div>
-      </Card.Body>
-</div>
-    </Card>
-        </Col>
-        </Row>
-    </Container>
-  </div>
-
-    </>
+    </div>
   );
-};
+}
 
-export default Content2;
+export default Kumpulan;

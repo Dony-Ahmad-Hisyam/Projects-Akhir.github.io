@@ -25,7 +25,7 @@ const Navigasi = ({ name, ...props }) => {
                 <Nav.Link className="P" href="#trending">
                   Trending
                 </Nav.Link>
-                <Nav.Link className="P" href="#populer">
+                <Nav.Link className="P" href="#genre">
                   Genres
                 </Nav.Link>
                 <Button onClick={handleShow} className="Off">
@@ -88,6 +88,10 @@ const Navigasi = ({ name, ...props }) => {
             </Container>
           </Navbar>
         </div>
+      </div>
+      <div>
+        <div className="Welcome">SELAMAT DATANG DI VIDISCOP</div>
+        <div className="Nonton">NONTON FILM GRATIS!</div>
       </div>
     </>
   );

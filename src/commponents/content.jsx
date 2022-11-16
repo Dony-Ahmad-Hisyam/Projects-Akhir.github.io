@@ -25,7 +25,7 @@ const Content = () => {
           <Carousel.Item>
             <div className="Content1">
               <div>
-                <Card style={{ width: "20rem" }}>
+                <Card style={{ width: "100%" }}>
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Aum} />
                     <Card.Body className="Color">
@@ -39,7 +39,7 @@ const Content = () => {
                 </Card>
               </div>
               <div>
-                <Card style={{ width: "20rem" }}>
+                <Card style={{ width: "100%" }}>
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Black} />
                     <Card.Body className="Color">
@@ -53,7 +53,7 @@ const Content = () => {
                 </Card>
               </div>
               <div>
-                <Card style={{ width: "20rem" }}>
+                <Card style={{ width: "100%" }}>
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={BlackP} />
                     <Card.Body className="Color">
@@ -71,7 +71,7 @@ const Content = () => {
           <Carousel.Item>
             <div className="Content1">
               <div>
-                <Card style={{ width: "20rem" }}>
+                <Card style={{ width: "100%" }}>
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Whole} />
                     <Card.Body className="Color">
@@ -85,7 +85,7 @@ const Content = () => {
                 </Card>
               </div>
               <div>
-                <Card style={{ width: "20rem" }}>
+                <Card style={{ width: "100%" }}>
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Century} />
                     <Card.Body className="Color">
@@ -99,7 +99,7 @@ const Content = () => {
                 </Card>
               </div>
               <div>
-                <Card style={{ width: "20rem" }}>
+                <Card style={{ width: "100%" }}>
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Crawl} />
                     <Card.Body className="Color">
@@ -117,7 +117,7 @@ const Content = () => {
           <Carousel.Item>
             <div className="Content1">
               <div>
-                <Card style={{ width: "20rem" }}>
+                <Card style={{ width: "100%" }}>
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Dora} />
                     <Card.Body className="Color">
@@ -131,7 +131,7 @@ const Content = () => {
                 </Card>
               </div>
               <div>
-                <Card style={{ width: "20rem" }}>
+                <Card style={{ width: "100%" }}>
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Kkn} />
                     <Card.Body className="Color">
@@ -145,7 +145,7 @@ const Content = () => {
                 </Card>
               </div>
               <div>
-                <Card style={{ width: "20rem" }}>
+                <Card style={{ width: "100%" }}>
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Perempuan} />
                     <Card.Body className="Color">
@@ -163,7 +163,7 @@ const Content = () => {
           <Carousel.Item>
             <div className="Content1">
               <div>
-                <Card style={{ width: "20rem" }}>
+                <Card style={{ width: "100%" }}>
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Raya} />
                     <Card.Body className="Color">
@@ -177,7 +177,7 @@ const Content = () => {
                 </Card>
               </div>
               <div>
-                <Card style={{ width: "20rem" }}>
+                <Card style={{ width: "100%" }}>
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={One} />
                     <Card.Body className="Color">
@@ -191,7 +191,7 @@ const Content = () => {
                 </Card>
               </div>
               <div>
-                <Card style={{ width: "20rem" }}>
+                <Card style={{ width: "100%" }}>
                   <div className="Border-Card">
                     <Card.Img className="Card" variant="top" src={Silenced} />
                     <Card.Body className="Color">
