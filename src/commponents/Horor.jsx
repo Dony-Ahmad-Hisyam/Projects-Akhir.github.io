@@ -9,21 +9,12 @@ const Horor = () => {
       <div className="Action">
         <Card style={{ width: "15rem  " }}>
           <Card.Img style={{ height: "20rem" }} src={Kkn} />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-          </Card.Body>
         </Card>
         <Card style={{ width: "15rem  " }}>
           <Card.Img style={{ height: "20rem" }} src={Perempuan} />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-          </Card.Body>
         </Card>
         <Card style={{ width: "15rem  " }}>
           <Card.Img style={{ height: "20rem" }} src={Crawl} />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-          </Card.Body>
         </Card>
       </div>
     </>

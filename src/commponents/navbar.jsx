@@ -1,6 +1,7 @@
 import { Navbar, Container, Nav, Button, Offcanvas, Accordion, Card } from "react-bootstrap";
 import "../App";
 import video from "../asset/bg/bg1.mp4";
+import Hisyam from "../asset/profile/aku.jpg";
 import React, { useState } from "react";
 
 const Navigasi = ({ name, ...props }) => {
@@ -46,11 +47,13 @@ const Navigasi = ({ name, ...props }) => {
                         <Accordion.Header>Dony Ahmad Hisyam</Accordion.Header>
                         <Accordion.Body>
                           <Card style={{ width: "18rem" }}>
-                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Img variant="top" src={Hisyam} />
                             <Card.Body>
-                              <Card.Title>Siji</Card.Title>
-                              <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
-                              <Button variant="primary">Go somewhere</Button>
+                              <Card.Title>DONY AHMAD HISYAM</Card.Title>
+                              <Card.Text> D3 PENS PSDKU SUMENEP TEKNIK INFORMATIKA</Card.Text>
+                              <Button href="https://www.instagram.com/donyhisyam21/" variant="primary">
+                                Instagram
+                              </Button>
                             </Card.Body>
                           </Card>
                         </Accordion.Body>
