@@ -32,7 +32,7 @@ const Content = () => {
                       <Card.Title className="Card-Tittle">Aum!</Card.Title>
                       <Card.Text>genre : Drama,Comedy,Action</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Watch</Button>
+                        <Button href="https://lk21official.art/7-aum-arivu-2011/" variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -46,7 +46,7 @@ const Content = () => {
                       <Card.Title className="Card-Tittle">Black adam</Card.Title>
                       <Card.Text>Genre : Superhero,Fantasy,Action</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Watch</Button>
+                      <Button href="https://88.210.3.94/movie/black-adam-2022/" variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>
@@ -60,7 +60,7 @@ const Content = () => {
                       <Card.Title className="Card-Tittle">Black phanter</Card.Title>
                       <Card.Text>Genre : Superhero,Fantasy,Action</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Watch</Button>
+                      <Button href="https://88.210.3.94/movie/black-panther-wakanda-forever-2022/" variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -78,7 +78,7 @@ const Content = () => {
                       <Card.Title className="Card-Tittle">The whole truth</Card.Title>
                       <Card.Text>Genre : Horror,Thriller,Drama</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Watch</Button>
+                      <Button href="https://lk21official.art/the-whole-truth-2021/" variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -92,7 +92,7 @@ const Content = () => {
                       <Card.Title className="Card-Tittle">20th Century Girl</Card.Title>
                       <Card.Text>Genre : Drama,Romance</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Watch</Button>
+                      <Button href="https://lk21official.art/20th-century-girl-2022/" variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>
@@ -106,7 +106,7 @@ const Content = () => {
                       <Card.Title className="Card-Tittle">Crawl</Card.Title>
                       <Card.Text>Genre : Horror,Paranormal</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Watch</Button>
+                      <Button href="https://lk21official.art/crawl-2019/" variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -124,7 +124,7 @@ const Content = () => {
                       <Card.Title className="Card-Tittle">Dora</Card.Title>
                       <Card.Text>Genre : Fantasy,Action</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Watch</Button>
+                      <Button href="https://lk21official.art/dora-and-the-lost-city-of-gold-2019/" variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -138,7 +138,7 @@ const Content = () => {
                       <Card.Title className="Card-Tittle">KKN Di Desa Penari</Card.Title>
                       <Card.Text>Genre : Horror,Paranormal,drama</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Watch</Button>
+                      <Button href="https://www.hotstar.com/id/movies/kkn-di-desa-penari/1260109693/watch" variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>
@@ -152,7 +152,7 @@ const Content = () => {
                       <Card.Title className="Card-Tittle">Perempuan Bergaun Merah</Card.Title>
                       <Card.Text>Genre : Horror,Paranormal,Drama</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Watch</Button>
+                      <Button href="https://www.youtube.com/watch?v=itBhrVe4kaY" variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -170,7 +170,7 @@ const Content = () => {
                       <Card.Title className="Card-Tittle">Raya The Last Dragon</Card.Title>
                       <Card.Text>Genre : Action,Comedy,Fantasy</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Watch</Button>
+                      <Button href="https://lk21official.art/raya-and-the-last-dragon-2021/" variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}
@@ -184,7 +184,7 @@ const Content = () => {
                       <Card.Title className="Card-Tittle">One Piece Red</Card.Title>
                       <Card.Text>Genre : Anime,Action,Comedy</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Watch</Button>
+                      <Button href="https://lk21official.art/one-piece-film-red-2022/" variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>
@@ -198,7 +198,7 @@ const Content = () => {
                       <Card.Title className="Card-Tittle">Silenced</Card.Title>
                       <Card.Text>Genre ; Drama,Thriller,Action</Card.Text>
                       <div className="Card-Tittle">
-                        <Button variant="primary">Watch</Button>
+                      <Button href="https://lk21official.art/silenced-2011/" variant="primary">Watch</Button>
                       </div>
                     </Card.Body>
                   </div>{" "}

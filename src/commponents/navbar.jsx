@@ -2,6 +2,7 @@ import { Navbar, Container, Nav, Button, Offcanvas, Accordion, Card } from "reac
 import "../App";
 import video from "../asset/bg/bg1.mp4";
 import Hisyam from "../asset/profile/aku.jpg";
+import Alif from "../asset/profile/bapakku.jpg";
 import React, { useState } from "react";
 
 const Navigasi = ({ name, ...props }) => {
@@ -72,14 +73,17 @@ const Navigasi = ({ name, ...props }) => {
                         </Accordion.Body>
                       </Accordion.Item>
                       <Accordion.Item eventKey="3">
-                        <Accordion.Header>Accordion Item #3</Accordion.Header>
+                        <Accordion.Header>Alif Aditya Ramadhani</Accordion.Header>
                         <Accordion.Body>
                           <Card style={{ width: "18rem" }}>
-                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Img variant="top" src={Alif} />
                             <Card.Body>
-                              <Card.Title>Telu</Card.Title>
-                              <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
-                              <Button variant="primary">Go somewhere</Button>
+                            <Card.Title>Alif Aditya Ramadhani</Card.Title>
+                              <Card.Text> D3 PENS PSDKU SUMENEP TEKNIK INFORMATIKA</Card.Text>
+                              
+                              <Button href="https://www.instagram.com/alif_dhn/" variant="primary">
+                                Instagram
+                              </Button>
                             </Card.Body>
                           </Card>
                         </Accordion.Body>
