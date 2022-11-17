@@ -162,7 +162,7 @@ video {
 .ContentGenre {
   position: absolute;
   top: 0;
-  margin-top: 207vh;
+  margin-top: 204vh;
   padding: 2rem;
   height: 100%;
   width: 100%;
@@ -171,7 +171,7 @@ video {
   position: absolute;
   top: 0;
   margin-top: 202vh;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
   color: white;
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
