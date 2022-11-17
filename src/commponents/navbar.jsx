@@ -81,9 +81,9 @@ const Navigasi = ({ name, ...props }) => {
                           <Card style={{ width: "18rem" }}>
                             <Card.Img variant="top" src={Alif} />
                             <Card.Body>
-                            <Card.Title>Alif Aditya Ramadhani</Card.Title>
+                              <Card.Title>Alif Aditya Ramadhani</Card.Title>
                               <Card.Text> D3 PENS PSDKU SUMENEP TEKNIK INFORMATIKA</Card.Text>
-                              
+
                               <Button href="https://www.instagram.com/alif_dhn/" variant="primary">
                                 Instagram
                               </Button>
@@ -100,7 +100,7 @@ const Navigasi = ({ name, ...props }) => {
         </div>
       </div>
       <div>
-        <div className="Welcome">SELAMAT DATANG DI VIDISCOP</div>
+        <div className="Welcome ">SELAMAT DATANG DI VIDISCOP</div>
         <div className="Nonton">NONTON FILM GRATIS!</div>
       </div>
     </>

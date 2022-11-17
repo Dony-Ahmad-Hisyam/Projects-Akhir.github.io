@@ -1,5 +1,3 @@
-import { Card } from "react-bootstrap";
-
 import Aum from "../asset/img/aum.jpg";
 import Whole from "../asset/img/whole.jpg";
 import Kkn from "../asset/img/kkn.jpg";
@@ -11,31 +9,28 @@ import Wakanda from "../asset/img/wakanda.jpg";
 const Drama = () => {
   return (
     <>
-      <div className="Action">
-        <Card style={{ width: "12rem  " }}>
-          <Card.Img style={{ height: "15rem" }} src={Aum} />
-        </Card>
-
-        <Card style={{ width: "12rem  " }}>
-          <Card.Img style={{ height: "15rem" }} src={Whole} />
-        </Card>
-        <Card style={{ width: "12rem  " }}>
-          <Card.Img style={{ height: "15rem" }} src={Silenced} />
-        </Card>
-        <Card style={{ width: "12rem  " }}>
-          <Card.Img style={{ height: "15rem" }} src={Kkn} />
-        </Card>
-      </div>
-      <div className="Action2">
-        <Card style={{ width: "12rem  " }}>
-          <Card.Img style={{ height: "15rem" }} src={Perempuan} />
-        </Card>
-        <Card style={{ width: "12rem  " }}>
-          <Card.Img style={{ height: "15rem" }} src={Century} />
-        </Card>
-        <Card style={{ width: "12rem  " }}>
-          <Card.Img style={{ height: "15rem" }} src={Wakanda} />
-        </Card>
+      <div className="Action4">
+        <div className="column">
+          <img style={{ width: "100%", height: "15rem" }} src={Whole} alt="" />
+        </div>
+        <div className="column">
+          <img style={{ width: "100%", height: "15rem" }} src={Aum} alt="" />
+        </div>
+        <div className="column">
+          <img style={{ width: "100%", height: "15rem" }} src={Kkn} alt="" />
+        </div>
+        <div className="column">
+          <img style={{ width: "100%", height: "15rem" }} src={Perempuan} alt="" />
+        </div>
+        <div className="column">
+          <img style={{ width: "100%", height: "15rem" }} src={Silenced} alt="" />
+        </div>
+        <div className="column">
+          <img style={{ width: "100%", height: "15rem" }} src={Century} alt="" />
+        </div>
+        <div className="column">
+          <img style={{ width: "100%", height: "15rem" }} src={Wakanda} alt="" />
+        </div>
       </div>
     </>
   );
