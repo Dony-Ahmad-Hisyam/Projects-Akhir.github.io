@@ -186,6 +186,7 @@ video {
 .BgR {
   height: 100vh;
   width: 100%;
+  margin-bottom:2rem;
 }
 
 .Nav {
@@ -237,3 +238,41 @@ video {
     max-height: auto;
   }
 }
+
+.Fotter{
+  display:flex;
+justify-content:center;
+width:auto;  
+margin-bottom:5rem;
+
+}
+.Fotter2{
+height:100%;
+width:40rem;
+
+
+}
+.Contant{
+  display:flex;
+justify-content:center;
+height:5rem;
+width:auto;
+color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+margin-top:5rem;
+}
+
+
+ 
+
+
+
+
+.Fot{
+  background-color:black;
+
+  color:white;
+}
+
