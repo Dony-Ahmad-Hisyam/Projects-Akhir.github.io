@@ -1,11 +1,8 @@
-import { Navbar, Container, Nav, Button, Offcanvas, Accordion, Card } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import "../App";
 import video from "../asset/bg/bg1.mp4";
 
-
-const Navigasi = ({ name, ...props }) => {
-
-
+const Navigasi = () => {
   return (
     <>
       <div className="BgVideo ">
@@ -20,16 +17,9 @@ const Navigasi = ({ name, ...props }) => {
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <div className="Navbar2">
-                <Nav.Link className="P" href="#trending">
-                  Trending
-                </Nav.Link>
-                <Nav.Link className="P" href="#genre">
-                  Genres
-                </Nav.Link>
-                <Nav.Link className="P" href="#contact">
-                Contact
-                </Nav.Link>
-              
+                <Nav.Link href="#trending">Trending</Nav.Link>
+                <Nav.Link href="#genre">Genres</Nav.Link>
+                <Nav.Link href="#contact">Contact</Nav.Link>
               </div>
             </Container>
           </Navbar>

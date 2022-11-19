@@ -31,6 +31,9 @@ const Drama = () => {
         <div className="column">
           <img style={{ width: "100%", height: "15rem" }} src={Wakanda} alt="" />
         </div>
+        <div className="column">
+          <img style={{ width: "100%", height: "15rem" }} src={Wakanda} alt="" />
+        </div>
       </div>
     </>
   );

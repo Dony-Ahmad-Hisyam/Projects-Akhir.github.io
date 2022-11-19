@@ -9,20 +9,22 @@
   gap: 1rem;
   width: 100%;
   height: 100%;
-  font-size: auto;
+  font-size: 1rem;
   font-family: "Times New Roman", Times, serif;
 }
-
+@media screen and (max-width: 600px) {
+  .Navbar1 {
+    font-size: 2px;
+  }
+  .Navbar2 {
+    font-size: 1rem;
+  }
+}
 .Navbar1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  font-size: auto;
-  margin-left: 2rem;
-
   font-family: "Times New Roman", Times, serif;
-}
-.P {
-  margin-top: 1rem;
+  color: white;
 }
 
 .Off {
@@ -39,7 +41,8 @@
 
 .Navbar-Border {
   border-radius: 1rem;
-  background-color: lightblue;
+  color: white;
+  background-color: #144366;
 }
 
 video {
@@ -67,9 +70,6 @@ video {
 }
 
 .Trending {
-  position: absolute;
-  top: 0;
-  margin-top: 100vh;
   padding-left: 2rem;
   color: white;
   font-family: "Times New Roman", Times, serif;
@@ -92,20 +92,16 @@ video {
 }
 
 .Content {
-  position: absolute;
-  top: 0;
-  margin-top: 110vh;
   height: 100%;
   width: 100%;
+  background-color: #103551;
 }
-
-.Content1 {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  width: 100%;
-  height: 100%;
-  margin-bottom: 3rem;
+@media screen and (max-width: 600px) {
+  .Content1 {
+    ms-flex: 50%;
+    max-width: ;
+    flex: 6rem;
+  }
 }
 
 .Our {
@@ -128,34 +124,33 @@ video {
 .Welcome {
   position: absolute;
   top: 0;
-  margin-top: 40vh;
+  margin-top: 45vh;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
-  color: rgb(0, 0, 255);
+  color: #69aadb;
   text-shadow: 2px 2px white;
   font-style: italic;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: Tahoma, Verdana, sans-serif;
-  letter-spacing: 2px;
-  font-size: 5vw;
+  letter-spacing: 1px;
 }
 
 .Nonton {
   position: absolute;
   top: 0;
-  margin-top: 50vh;
+  margin-top: 52vh;
   width: 100%;
   display: flex;
   justify-content: center;
-  color: rgb(0, 0, 255);
+  color: #3e92d1;
   text-shadow: 2px 2px white;
   font-variant: small-caps;
   font-family: Tahoma, Verdana, sans-serif;
   letter-spacing: 3px;
-  font-size: 5vw;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 
@@ -165,18 +160,13 @@ video {
 }
 
 .ContentGenre {
-  position: absolute;
-  top: 0;
-  margin-top: 204vh;
-  padding: 2rem;
+  padding: 5rem;
   height: 100%;
   width: 100%;
+  background-color: #4c4c93;
 }
 .Genres {
-  position: absolute;
-  top: 0;
-  margin-top: 202vh;
-  padding-left: 1.5rem;
+  padding-bottom: 2rem;
   color: white;
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
@@ -186,13 +176,13 @@ video {
 .BgR {
   height: 100vh;
   width: 100%;
-  margin-bottom:2rem;
 }
 
 .Nav {
   display: grid;
-  grid-template-columns: 2rem;
+  grid-template-columns: 5rem;
   gap: 2rem;
+  margin-bottom: 1rem;
 }
 
 .Action4 {
@@ -205,6 +195,16 @@ video {
 }
 * {
   box-sizing: border-box;
+}
+.Content1 {
+  display: -ms-flexbox;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
 }
 
 .column {
@@ -229,6 +229,20 @@ video {
     max-width: 100%;
     max-height: auto;
   }
+  svg {
+    max-width: 100%;
+    max-height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .Polan {
+    display: flex;
+    justify-content: center;
+    flex: 6rem;
+    -ms-flex: 50%;
+    max-width: 100%;
+    max-height: auto;
+  }
 }
 @media screen and (max-width: 600px) {
   .column {
@@ -238,41 +252,49 @@ video {
     max-height: auto;
   }
 }
-
-.Fotter{
-  display:flex;
-justify-content:center;
-width:auto;  
-margin-bottom:5rem;
-
+@media screen and (max-width: 600px) {
+  .Welcome {
+    font-size: 22px;
+  }
 }
-.Fotter2{
-height:100%;
-width:40rem;
-
-
+@media screen and (max-width: 600px) {
+  .Nonton {
+    font-size: 22px;
+  }
 }
-.Contant{
-  display:flex;
-justify-content:center;
-height:5rem;
-width:auto;
-color: black;
+
+.Fotter {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-bottom: 15rem;
+}
+.Fotter2 {
+  height: 100%;
+  width: 40rem;
+}
+.Contant {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-top: 8rem;
+
+  width: auto;
+  color: black;
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
   letter-spacing: 1px;
-margin-top:5rem;
 }
 
-
- 
-
-
-
-
-.Fot{
-  background-color:black;
-
-  color:white;
+.Fot {
+  background-color: #00004c;
+  margin-top: 2rem;
+  color: white;
+  height: 100%;
 }
 
+.ButtonP {
+  display: flex;
+  justify-content: center;
+}

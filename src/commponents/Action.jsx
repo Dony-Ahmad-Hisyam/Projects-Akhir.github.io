@@ -39,6 +39,9 @@ const Action = () => {
         <div className="column">
           <img style={{ width: "100%", height: "15rem" }} src={Swords} alt="" />
         </div>
+        <div className="column">
+          <img style={{ width: "100%", height: "15rem" }} src={Swords} alt="" />
+        </div>
       </div>
     </>
   );
