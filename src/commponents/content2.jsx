@@ -5,6 +5,8 @@ import Tab from "react-bootstrap/Tab";
 import Action from "../commponents/Action";
 import Horor from "../commponents/Horor";
 import Drama from "../commponents/Drama";
+import Adventure from "../commponents/Adventure";
+import Anime from "../commponents/Anime";
 
 function Kumpulan() {
   return (
@@ -36,6 +38,12 @@ function Kumpulan() {
                   <Nav.Item>
                     <Nav.Link eventKey="3">Drama</Nav.Link>
                   </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link eventKey="4">Adventures</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link eventKey="5">Anime</Nav.Link>
+                  </Nav.Item>
                 </Nav>
               </div>
             </Col>
@@ -49,6 +57,12 @@ function Kumpulan() {
                 </Tab.Pane>
                 <Tab.Pane eventKey="3">
                   <Drama />
+                </Tab.Pane>
+                <Tab.Pane eventKey="4">
+                  <Adventure />
+                </Tab.Pane>
+                <Tab.Pane eventKey="5">
+                  <Anime />
                 </Tab.Pane>
               </Tab.Content>
             </Col>

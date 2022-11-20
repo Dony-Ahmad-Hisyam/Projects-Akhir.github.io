@@ -98,7 +98,7 @@ video {
 @media screen and (max-width: 600px) {
   .Content1 {
     -ms-flex: 50%;
-    max-width: ;
+    max-width:100% ;
     flex: 6rem;
   }
 }
