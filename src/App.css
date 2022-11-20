@@ -36,10 +36,13 @@
   top: 0;
   padding: 1rem;
   height: 20%;
+ position: fixed;
+  top: 0;  
   width: 100%;
 }
 
 .Navbar-Border {
+  position:relative;
   border-radius: 1rem;
   color: white;
   background-color: #144366;
@@ -80,10 +83,6 @@ video {
 .Card {
   height: 52vh;
 }
-.Card-Tittle {
-  display: flex;
-  justify-content: center;
-}
 
 .Border-Card {
   border: 2px solid;
@@ -98,7 +97,7 @@ video {
 }
 @media screen and (max-width: 600px) {
   .Content1 {
-    ms-flex: 50%;
+    -ms-flex: 50%;
     max-width: ;
     flex: 6rem;
   }
@@ -210,13 +209,16 @@ video {
 .column {
   -ms-flex: 25%;
   flex: 25%;
+  margin-top: 1rem;
   max-width: 20%;
   vertical-align: middle;
   padding: 0 7px;
   border-radius: 5px;
+  width: 15rem;
+  height: 100%;
 }
 .column img {
-  margin-top: 8px;
+  margin-top: 2px;
   width: 100%;
   border: 2px solid white;
   border-radius: 6px;
@@ -226,8 +228,9 @@ video {
   .column {
     -ms-flex: 50%;
     flex: 6rem;
-    max-width: 100%;
-    max-height: auto;
+  height: 100%;
+    max-width:20rem;
+    max-height: 100%;
   }
   svg {
     max-width: 100%;
@@ -240,16 +243,28 @@ video {
     justify-content: center;
     flex: 6rem;
     -ms-flex: 50%;
-    max-width: 100%;
-    max-height: auto;
+    max-width:20rem;
+    max-height: 100%;
+  
   }
 }
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 50%;
-    max-width: 100%;
+    max-width:20rem;
     flex: 6rem;
-    max-height: auto;
+ 
+    height: 20rem;
+    max-height: 15rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Polan {
+    -ms-flex: 50%;
+    max-width:20rem;
+    flex: 6rem;
+ padding: 1rem;
+    
   }
 }
 @media screen and (max-width: 600px) {
@@ -297,4 +312,17 @@ video {
 .ButtonP {
   display: flex;
   justify-content: center;
+}
+
+.Rating {
+  display: flex;
+  justify-content: end;  
+  align-items: center;
+  text-align: center;
+ gap: 4px;
+}
+.ButR{
+  display: flex;
+  justify-content: center;
+
 }

@@ -11,7 +11,7 @@ function Footer({ name, ...props }) {
 
   return (
     <>
-      <div id="contact" className="Contant">
+      <div id="contact"  className="Contant">
         Contact Us
       </div>
       <Form className="Fotter">
