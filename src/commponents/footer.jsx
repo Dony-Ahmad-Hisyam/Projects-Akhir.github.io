@@ -23,7 +23,7 @@ function Footer({ name, ...props }) {
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Example textarea</Form.Label>
+            <Form.Label>Feedbacks</Form.Label>
             <Form.Control as="textarea" rows={3} />
           </Form.Group>
           <Button variant="primary" type="submit">
@@ -36,41 +36,16 @@ function Footer({ name, ...props }) {
           <div class="container">
             <div class="row text-center text-xs-center text-sm-left text-md-left">
               <div class="col-xs-12 col-sm-4 col-md-4 mt-5 ">
-                <h5>Quick links</h5>
-                <ul class="list-unstyled quick-links">
-                  <li>
-                    <a href="https://www.fiverr.com/share/qb8D02">
-                      <i class="fa fa-angle-double-right"></i>Home
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.fiverr.com/share/qb8D02">
-                      <i class="fa fa-angle-double-right"></i>About
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.fiverr.com/share/qb8D02">
-                      <i class="fa fa-angle-double-right"></i>FAQ
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.fiverr.com/share/qb8D02">
-                      <i class="fa fa-angle-double-right"></i>Get Started
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.fiverr.com/share/qb8D02">
-                      <i class="fa fa-angle-double-right"></i>Videos
-                    </a>
-                  </li>
-                </ul>
+                <i> Vidiscop merupakan situs penyedia layanan streaming film dan serial tv gratis. Sama seperti penyedia film dan serial tv lainnya seperti Netflix, Disney+, HBO, Apple TV+, Amazon Prime Video, dan lainnya. Vidiscop berusaha untuk menyediakan layanan streaming gratis untuk selamanya kepada para rakyat Indonesia yang belum mampu berlangganan layanan premium streaming seperti yang disebut diatas. Perlu diperhatikan Vidiscop tidak menyediakan film maupun serial tv dari negara Indonesia.
+
+</i>
               </div>
               <div class="col-xs-12 col-sm-4 col-md-4 mt-5 ">
-                <h5>Quick links</h5>
+                <h5>Website lain dari komunitas kami</h5>
                 <ul class="list-unstyled quick-links">
                   <li>
                     <a href="https://www.fiverr.com/share/qb8D02">
-                      <i class="fa fa-angle-double-right"></i>Home
+                      <i class="fa fa-angle-double-right"></i>Mocoen
                     </a>
                   </li>
                   <li>
@@ -172,15 +147,12 @@ function Footer({ name, ...props }) {
               <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
                 <p>
                   <u>
-                    <a href="https://www.nationaltransaction.com/">National Transaction Corporation</a>
+                    
                   </u>{" "}
-                  is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]
-                </p>
+                  Copyright © 2022 by Vidiscop. </p>
                 <p class="h6">
                   © All right Reversed.
-                  <a class="text-green ml-2" href="/" target="_blank">
-                    Sunlimetech
-                  </a>
+                
                 </p>
               </div>
             </div>

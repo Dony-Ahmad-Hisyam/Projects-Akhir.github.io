@@ -326,3 +326,6 @@ video {
   justify-content: center;
 
 }
+li a{
+  text-decoration: none;
+}
