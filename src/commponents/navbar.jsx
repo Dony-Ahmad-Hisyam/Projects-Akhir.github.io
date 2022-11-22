@@ -1,4 +1,4 @@
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Button, Form, Nav } from "react-bootstrap";
 import "../App";
 import video from "../asset/bg/bg1.mp4";
 
@@ -11,17 +11,24 @@ const Navigasi = () => {
       <div className="Abso">
         <div className="Navbar-Border">
           <Navbar className="AS">
-            <Container>
-              <Navbar.Brand href="/">
-                <div className="Navbar1">Vidiscop</div>
-              </Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <div className="Navbar2">
-                <Nav.Link href="#trending">Trending</Nav.Link>
-                <Nav.Link href="#genre">Genres</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
-              </div>
-            </Container>
+            <Navbar.Brand href="/">
+              <div className="Navbar1">Vidiscop</div>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <div className="Navbar2 me-3">
+              <Nav.Link href="#trending">Trending</Nav.Link>
+              <Nav.Link href="#genre">Genres</Nav.Link>
+              <Nav.Link href="#contact">Contact</Nav.Link>{" "}
+            </div>
+            <Form className="d-flex">
+              <Form.Control
+                type="search"
+                placeholder="Search"
+                className="me-2"
+                aria-label="Search"
+              />
+              <Button variant="outline-success">Search</Button>
+            </Form>{" "}
           </Navbar>
         </div>
       </div>
